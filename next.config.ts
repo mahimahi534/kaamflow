@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Disable Next.js dev indicator overlay (removes the orange N badge at bottom-left) */
+  devIndicators: false,
   experimental: {
     agentFeedback: true,
   },
